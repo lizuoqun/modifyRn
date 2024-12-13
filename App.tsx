@@ -87,7 +87,7 @@ function App(): React.JSX.Element {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
-            我嘞个豆
+            我嘞个豆!
           </Section>
           <LearnMoreLinks />
         </View>
