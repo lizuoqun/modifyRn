@@ -24,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import AppInit from './AppInit';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -87,7 +88,7 @@ function App(): React.JSX.Element {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
-            我嘞个豆!
+            我嘞个豆! <AppInit/>
           </Section>
           <LearnMoreLinks />
         </View>
