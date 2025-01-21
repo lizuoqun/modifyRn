@@ -18,6 +18,6 @@ export default class Flex extends Component {
 
 const styles = StyleSheet.create({
   box: {
-    flexDirection: 'row'
-  }
+    flexDirection: 'row',
+  },
 });
