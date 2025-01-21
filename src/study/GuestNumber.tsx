@@ -30,7 +30,7 @@ const GuestNumber = () => {
   };
 
   return <SafeAreaView>
-    <TextInput style={styles.input} value={text} onChangeText={changeText}/>
+    <TextInput style={styles.input} value={text} onChangeText={changeText} keyboardType={'numeric'}/>
     <Button
       onPress={doGuest}
       title="Please Guest"
